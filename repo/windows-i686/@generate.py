@@ -1,9 +1,9 @@
 import os
 import sys
+import codecs
 
 # Compatibility with 3.0, 3.1 and 3.2 not supporting u"" literals
 if sys.version < '3':
-    import codecs
     def u(x):
         return codecs.unicode_escape_decode(x)[0]
 else:

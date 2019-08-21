@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="pvr.puzzle.tv" version="0.9.34" name="PVR Puzzle TV" provider-name="srg70">
+<addon id="pvr.puzzle.tv" version="0.9.38" name="PVR Puzzle TV" provider-name="srg70">
     <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.global.gui" version="5.12.0"/>
@@ -16,7 +16,7 @@
     <description lang="ru_RU">Интерфейс для IPTV. Поддерживает просмотр потокового ТВ, прослушивание радиоканалов и работу с электронным телегидом от поствщиков услуг, используя специализированный интерфейс. Есть возможность расширения.</description>
     <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
     <disclaimer lang="ru_RU">Это нестабильная программа! Авторы не несут ответственности за неудачные воспроизведение, неверные время EPG, потраченное время и прочие нежелательные эффекты.</disclaimer>
-     <platform>windows-i686</platform>
+     <platform>windows-x86_64</platform>
   </extension>
 </addon>
 </addons>

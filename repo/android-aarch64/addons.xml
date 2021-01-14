@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="pvr.puzzle.tv" version="0.9.104" name="PVR Puzzle TV" provider-name="srg70">
+<addon id="pvr.puzzle.tv" version="0.9.105" name="PVR Puzzle TV" provider-name="srg70">
     <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.global.gui" version="5.12.0"/>
@@ -21,6 +21,10 @@
      <source>https://github.com/srg70/pvr.puzzle.tv</source>
      <license>GPL-2.0-or-later</license>
      <news>
+         0.9.105
+         - fix: set default value for undefined settings.
+         - feat: override channel logo with icon from local folder.
+
          0.9.104
          - fix: support EPG shift for recordings
 
